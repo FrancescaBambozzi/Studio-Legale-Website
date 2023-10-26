@@ -1,0 +1,259 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 150px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+/* Make the header sticky on scroll */
+#sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    z-index: 1000;
+}
+
+#sticky-header h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 46px;
+    margin: 10px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Carousel Style */
+.carousel-container {
+    position: relative;
+    max-height: 90vh;
+    overflow: hidden;
+    margin-top: -40px;
+}
+
+.carousel-slide {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    padding: 30px;
+}
+
+/* "About Me" section */
+.about {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.about h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile-details {
+    flex: 1;
+    padding: 20px;
+}
+
+.profile-details h3 {
+    font-size: 24px;
+}
+
+.profile-details p {
+    font-size: 16px;
+}
+
+
+/* Services Section Styles */
+.services {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+/* Responsive CSS for the services section */
+.service {
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start;
+    /* Align items at the top */
+    flex-wrap: wrap;
+    /* Wrap the content to the next line on smaller screens */
+}
+
+.service i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.service h3 {
+    font-size: 20px;
+    margin: 0;
+    flex: 1;
+    /* Expand to fill available space */
+}
+
+.service p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* Responsive design for the entire page */
+@media (max-width: 768px) {
+
+    /* Adjustments for smaller screens */
+    .service {
+        flex-direction: column;
+        /* Stack content on smaller screens */
+    }
+
+    .service i {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* Lawyers section */
+.lawyers-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lawyer-column {
+    width: 48%;
+    /* Adjust the width as needed */
+}
+
+.lawyer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.lawyer-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.lawyer-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.lawyer-details {
+    flex: 1;
+}
+
+/* Additional styles for better visual appeal */
+.lawyer-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.lawyer-specialty {
+    font-style: italic;
+}
+
+/* Contact Section Styles */
+.contact {
+    padding: 40px 0;
+}
+
+.form {
+    padding-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+}
