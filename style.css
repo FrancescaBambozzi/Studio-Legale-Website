@@ -33,18 +33,39 @@ h2 {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #FDF9E1;
-    color: #4C0013;
+    background-color: #4C0013;
+    color: #fff;
     z-index: 1000;
 }
 
 #sticky-header h1 {
     font-family: myKunstlerFont;
-    font-size: 65px;
+    font-size: 70px;
     margin: 10px;
     text-shadow: 2px 2px 4px lightslategray;
+    font-weight: 100;
 }
 
+/* #sticky-header {
+    position: relative;
+} */
+
+.flags {
+    position: absolute;
+    top: 15px; /* Adjust the vertical position as needed */
+    right: 65px; /* Adjust the horizontal position as needed */
+}
+
+.flag-icon {
+    margin-left: 10px; /* Adjust the spacing between the icons */
+    text-decoration: none;
+    color: #000; /* Set the color of the icons */
+}
+
+.flag {
+    height: 22px;
+    width: 22px;
+}
 
 header {
     padding: 20px;
@@ -60,7 +81,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
     /* font-weight: bold; */
 }
 
@@ -131,8 +152,8 @@ h2.slide-in {
 }
 
 .profile-image img {
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
 }
 
@@ -152,8 +173,16 @@ h2.slide-in {
 
 /* Services Section Styles */
 .services {
-    background-color: #FDF9E1;
+    background-color: #4C0013;
     padding: 40px 0;
+    color: #fff;
+}
+
+#services h2 {
+    color: #fff;
+    text-shadow: none;
+    font-weight: 100;
+    text-align: center;
 }
 
 /* Responsive CSS for the services section */
@@ -235,6 +264,8 @@ h2.slide-in {
 
 .lawyer-contact {
     font-style: italic;
+    font-size: 16px;
+    margin-top: 5px;
 }
 
 /* Contact Section Styles */
@@ -298,7 +329,7 @@ button:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: #4C0013;
     text-align: center;
     color: #fff;
 }
