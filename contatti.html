@@ -26,11 +26,11 @@
         </div>
         <div class="nav-dialog" id="nav-dialog">
             <nav>
-                <a href="">Home</a>
-                <a href="index.html">Lo studio</a>
+                <a href="index.html">Home</a>
+                <a href="index.html#about">Lo studio</a>
                 <a href="attivita.html">Aree di attività</a>
                 <a href="avvocati.html">Gli avvocati</a>
-                <a href="contatti.html">Contatti</a>
+                <a href="">Contatti</a>
                 <a href="privacy.html">Privacy</a>
             </nav>
         </div>
@@ -42,35 +42,35 @@
         </div>
     </header>
     <!-- Hero -->
-    <section id="home" class="hero">
-        <img src="imgs/books.jpg" alt="Hero Image">
-        <div class="caption">
-            <p>Your Caption Here</p>
-        </div>
-    </section>
-    <!-- About -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2>Lo studio</h2>
-            <div class="about-content">
-                <div class="profile-image">
-                    <img src="imgs/studio.jpg" alt="Lo studio">
-                </div>
-                <div class="profile-details">
-                    <p>Lo studio si avvale di un consolidato gruppo di professionisti, ognuno dei quali svolge la
-                        propria attività in uno specifico settore del diritto. Grazie a questa ripartizione interna è
-                        possibile fornire al cliente un'approfondita consulenza nel settore del diritto civile
-                        (privato, lavoro, commerciale), penale, amministrativo, tributario e internazionale e una
-                        visione interdisciplinare delle varie problematiche esistenti. Lo studio si avvale di stimati
-                        consulenti esterni, grazie ai quali è possibile affrontare delicate problematiche di carattere
-                        ingegneristico, medico, notarile e fiscale. Lo studio ha creato negli anni un'importante rete
-                        di corrispondenti legali in Italia e all'estero di cui si avvale quando è necessario
-                        agire sul posto.</p>
-                </div>
-            </div>
-        </div>
+    <section id="home2" class="hero">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.4579287739716!2d13.51355707634015!3d43.61782707110389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132d7fbebeeaf7bb%3A0x51b7ef862f29ea29!2sCorso%20Giuseppe%20Mazzini%2C%20107%2C%2060121%20Ancona%20AN!5e0!3m2!1sen!2sit!4v1698767766418!5m2!1sen!2sit"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
     <!-- Contacts -->
+    <section class="contact">
+        <div class="container">
+            <h2>Contattaci</h2>
+            <p>Riceviamo solo <b>su appuntamento</b> in Corso Mazzini 107 dal Lunedì al Venerdì dalle 8:00 alle 20:00.</p>
+            <p>Prenota il tuo appuntamento tramite il form qui sotto.</p>
+            <form class="form">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Messaggio:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <a href="mailto:studiolegalehonorati@tin.it"><button type="submit">Inoltra</button></a>
+            </form>
+        </div>
+    </section>
     <section id="contacts" class="contacts">
         <div class="contacts-container container">
             <div class="column">
