@@ -187,8 +187,8 @@ nav a {
     flex-wrap: wrap;
 }
 
-.service i {
-    font-size: 28px;
+.attivita-icon {
+    width: 32px;
     margin-right: 10px;
 }
 
