@@ -24,8 +24,7 @@ h1 {
 h2 {
     color: #9b111e;
     font-family: myKunstlerFont;
-    font-size: 56px;
-    text-shadow: 2px 2px 4px lightslategray;
+    font-size: 55px;
 }
 
 p {
@@ -114,7 +113,7 @@ nav a {
 }
 
 .hero img {
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 
@@ -157,6 +156,7 @@ nav a {
     border-radius: 50%;
     height: 230px;
     width: 230px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .studio-details {
@@ -191,7 +191,7 @@ nav a {
 
 .service h3 {
     flex: 1;
-    font-size: 20px;
+    font-size: 25px;
     margin: 0;
 }
 
@@ -299,10 +299,11 @@ button:hover {
 }
 
 .column {
-    background-color: #f4f4f4;
-    border: 1px solid #ddd;
+   /*  background-color: #f4f4f4; */
+    /* border: 1px solid #ddd; */
     border-radius: 5px;
     box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     flex: 1;
     margin: 10px;
     padding: 20px;
@@ -310,6 +311,7 @@ button:hover {
 
 .column p {
     text-align: center;
+    font-weight: 600;
 }
 
 /* PRIVACY SECTION */
@@ -327,9 +329,12 @@ button:hover {
 footer {
     background-color: #9b111e;
     color: #fff;
-    text-align: center;
     padding: 40px 0;
     width: 100%;
+}
+
+footer p {
+    text-align: center;
 }
 
 /* Responsive design for smaller screens */
